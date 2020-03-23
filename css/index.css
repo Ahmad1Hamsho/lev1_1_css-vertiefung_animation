@@ -26,5 +26,24 @@ img {
   position: relative;
   top: 55vh;
   left: 32vw;
-  animation: scrollImg 2s infinite;
+  animation: scrollImg 1s infinite;
+}
+
+#img3 {
+  position: relative;
+  top: 55vh;
+  left: 32vw;
+  animation: scrollImg 1s infinite;
+  animation-direction: reverse;
+}
+
+@keyframes scrollImg {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(40px);
+    opacity: 0;
+  }
 }
