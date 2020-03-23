@@ -1,0 +1,30 @@
+body {
+  scroll-behavior: smooth;
+}
+
+#one {
+  background-color: pink;
+  height: 100vh;
+}
+#tow {
+  background-color: yellow;
+  height: 100vh;
+}
+#three {
+  background-color: rgb(46, 241, 150);
+  height: 100vh;
+}
+a {
+  position: relative;
+  top: 40vh;
+  left: 40vw;
+  font-size: 2em;
+  color: black;
+  text-decoration: none;
+}
+img {
+  position: relative;
+  top: 55vh;
+  left: 32vw;
+  animation: scrollImg 2s infinite;
+}
